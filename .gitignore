@@ -1,0 +1,45 @@
+# Virtual Environment
+myenv/
+venv/
+env/
+.env/
+.venv/
+ENV/
+pyvenv.cfg
+
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+.pytest_cache/
+
+# Environment & Sensitive Data
+.env
+.env.*
+*.key
+config.ini
+secrets.yaml
+credentials.json
+
+# IDE
+.idea/
+.vscode/
+*.swp
+.DS_Store
+Thumbs.db
+
+# Logs and Temporary Files
+*.log
+logs/
+tmp/
+temp/
+.coverage
+htmlcov/
+
+# Specific Virtual Environment
+transcription_bot/
